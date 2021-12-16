@@ -1,0 +1,93 @@
+h1.main-title{
+	text-align: center;
+	color: #D8521E;
+}
+
+input.form1{
+	width: 200px;
+	text-align: center;
+	border-color: orange;
+	border-style: solid;
+	border-radius: 3px;
+	height: 40px;
+	font-size: 30px;
+	margin-top: -200px;
+	color: darkorange;
+}
+
+input.form1::placeholder{
+	color: bisque;
+}
+
+input.form1-button{
+	width: 150px;
+	text-align: center;
+	height: 35px;
+	font-size: 18px;
+	background-color: orange;
+	color: white;
+	border:none;
+	border-radius: 3px;
+}
+
+input.form1-button:hover{
+	color: darkorange;
+	background-color: bisque;
+}
+
+p.form1{
+	font-size: 25px;
+	color:darkorange;
+	margin-bottom: 10px;
+}
+
+span.form1-unit{
+	font-size: 20px;
+	color:darkorange;
+}
+
+span.form1{
+	font-size: 25px;
+	color: darkorange;
+}
+
+form.bmi-culiculate{
+	text-align: center;
+	padding-top: 10px;
+}
+
+p.bmi-table-title{
+	font-size: 20px;
+	display: none;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: -1px;
+	color: darkorange;
+}
+
+#bmi-table {
+	display: none;
+	border-collapse: collapse;
+	text-align: center;
+	margin: auto;
+	width: 600px;
+	border-color: orange;
+}
+
+th.bmi-range{
+	width: 150px;
+	color:white;
+	background-color: darkorange;
+}
+
+th.bmi-class{
+	width: 150px;
+	color:white;
+	background-color: darkorange;
+}
+
+th.weight-class{
+	width: 300px;
+	color:white;
+	background-color: darkorange;
+}

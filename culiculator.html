@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BMIの計算</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="culiculator.css">
+</head>
+<body>
+	<script src='culiculator.js'></script>
+	<h1 class="main-title">BMIを測定してみよう！</h1>
+	<form class="bmi-culiculate">
+		<p class="form1">体重を入力してください</p>
+		<input class="form1" type="text" id="weight" placeholder="体重"><span class="form1-unit">kg</span>
+		<p class="form1">身長を入力してください</p>
+		<input class="form1" type="text" id="height" placeholder="身長"><span class="form1-unit">cm</span>
+		<p><input class="form1-button" type="button" value="BMIを計算する" onclick="culiculate_bmi();"></p>
+		<span class="form1" id="result"></span><br>
+		<span class="form1" id="body_shape"></span><br>
+		<span class="form1" id="proper_weight"></span>
+	</form>
+
+
+	<p class="bmi-table-title" id="bmi-table-title">身長<span id="my-height"></span>cmの成人の場合</p>
+	<table id="bmi-table" border="1">
+		<tr>
+			<th class="bmi-range">BMI</th>
+			<th class="bmi-class">分類</th>
+			<th class="weight-class">体重分布</th>
+		</tr>
+		<tr id="bmi-table1">
+			<td>18.5未満</td>
+			<td>低体重(やせ型)</td>
+			<td id="bmi1"></td>
+		</tr>
+		<tr id="bmi-table2">
+			<td>18.5以上25未満</td>
+			<td>普通体重</td>
+			<td id="bmi2"></td>
+		</tr>
+		<tr id="bmi-table3">
+			<td>25以上30未満</td>
+			<td>肥満(1度)</td>
+			<td id="bmi3"></td>
+		</tr>
+		<tr id="bmi-table4">
+			<td>30以上35未満</td>
+			<td>肥満(2度)</td>
+			<td id="bmi4"></td>
+		</tr>
+		<tr id="bmi-table5">
+			<td>35以上</td>
+			<td>肥満(3度)</td>
+			<td id="bmi5"></td>
+		</tr>
+	</table>
+
+</body>
+</html>
